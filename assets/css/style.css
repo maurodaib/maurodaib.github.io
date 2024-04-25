@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #202020;
+}
+
+.header,
+.nav,
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentNav {
+  height: 60px;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.paddingNav {
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+}
+
+.nav a:hover {
+  color: white;
+}
+
+li,
+ul {
+  list-style-type: none;
+}
+
+.iconNav {
+  height: 40px;
+  width: 40px;
+}
+
+.iconMain {
+  height: 30px;
+  width: 30px;
+}
+
+.fontPrimary {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.fontSecondary {
+  color: rgb(180, 180, 180);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  padding: 0%;
+}
+
+.fontTerciary {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+h1.fontSecondary,
+a.fontSecondary {
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.titlePersonalInformation {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 80px 0px 0px 0px;
+}
+
+.linksPersonalInformation {
+  display: flex;
+  height: 100px;
+  padding: 30px 0px 0px 0px;
+}
+
+.firstListPersonalInformation {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2px 0px 0px 20px;
+}
+
+.descriptionPersonalInformation {
+  width: 500px;
+  padding: 30px 0px 0px 0px;
+}
+
+.secondListPersonalInformation {
+  display: flex;
+  padding: 30px 0px 0px 0px;
+}
+
+.alingList {
+  display: flex;
+  align-items: center;
+}
+
+span,
+span.fontSecondary {
+  padding: 0px 10px 0px 10px;
+}
+
+.sectionError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconError {
+  height: 400px;
+  width: 400px;
+  padding-top: 100px;
+}
+
+.textError {
+  padding-top: 20px;
+}
+
+.textTop {
+  padding-top: 10px;
+}
+
+.textLeft {
+  padding-left: 10px;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+th.fontTerciary {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+tr.paddingTop {
+  padding-top: 20px;
+}
